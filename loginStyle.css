@@ -1,0 +1,57 @@
+:root {
+    --bg-color: #fff;
+    --color: #3d26e8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: var(--bg-color)!important;
+    font-family: 'Muli', sans-serif;
+}
+a{
+     color:#000;
+}
+a:hover {
+    color:var(--color);
+    text-decoration: none;
+}
+.portal{
+    text-align: center;
+    font-size: 30px;
+    color: var(--color);
+    /* top: 50px; */
+}
+.form-control:focus {
+
+    color: #000;
+    background-color:var(--bg-color);
+    border: 2px solid var(--color);
+    outline: 0;
+    box-shadow:solid blue;
+}
+
+.btn {
+    font-weight: 500;
+    background:var(--color);
+}
+
+.btn:hover {
+    border: 1px solid var(--color);
+    color: var(--bg-color);
+    background: #4334b7;
+}
+.card-body{
+    /* login-outer-box  */
+    top: 50px;
+    border-radius: 20px;
+    display:absolute;
+    box-shadow: 2px solid blue;
+    box-shadow:2px linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+}
+.form-group{
+    /* width: 450px; */
+    
+}
