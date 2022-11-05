@@ -55,3 +55,20 @@ a:hover {
     /* width: 450px; */
     
 }
+.parent {
+    margin-top: auto;
+    height: 300px;
+    background:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    background-color:none;
+    width: 200px;
+    height: 100px;
+}
+p{
+    width:auto;
+}
