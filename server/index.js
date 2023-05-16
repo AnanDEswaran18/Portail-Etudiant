@@ -20,7 +20,7 @@ mongoose
         console.log("DB CONNECTED")
     })
     .catch((error)=>{
-        console.log("DB Connection Error")
+        console.log("DB Connection Error",error)
     })
 
 // middleware
@@ -33,7 +33,7 @@ app.get("/", (req, res) => {
 app.use("/test", testRoutes)
 
 // port and listener
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3001;
 
 app.listen(port, () => {
     console.log("Running..");
